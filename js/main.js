@@ -10,7 +10,7 @@ function writeCss(prefix, code, fn) {
       window.clearInterval(id)
       fn.call()
     }
-  }, 10)
+  }, 30)
 }
 function writeMarkdown(md,fn){
   let markdown = document.querySelector('#paper >.content')
@@ -23,7 +23,7 @@ function writeMarkdown(md,fn){
       window.clearInterval(id)
       fn.call()
     }
-  }, 10)
+  }, 30)
 }
 
 var css1 = `/*面试官你好!
