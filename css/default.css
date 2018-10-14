@@ -1,3 +1,6 @@
+*{border:0;margin:0;
+box-sizing: border-box}
+
 .token.selector{
   color: black;
 }
@@ -6,4 +9,36 @@
 }
 .token.function{
   color: black;
+}
+.main{
+  position: fixed;
+  height:100%;
+  padding: 16px;
+  width: 100%;
+}
+#code{
+  
+  left: 0;
+  height:100%;
+  overflow: hidden;
+}
+#paper{
+  position: fixed;
+  width:50%;
+  right: 0;
+  height:100%;
+  background: rgb(138, 128, 128);
+  padding: 16px;
+}
+#paper >.content{
+  height: 100%;
+  width: 100%;
+}
+#paper >.markdown{
+  padding: 16px;
+  background: white;
+  display: fixed;
+  overflow: hidden;  
+  height: 100%;
+  width: 100%;
 }
